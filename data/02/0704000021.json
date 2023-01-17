@@ -1,0 +1,1034 @@
+{
+  "DOC_ID": "0704000021",
+  "tokens": [
+    "help",
+    "desk",
+    "buongiorno",
+    "sono",
+    "<PER>",
+    "ciao",
+    "<PER>",
+    "sono",
+    "<PER>",
+    "ciao",
+    "chiamo",
+    "da",
+    "corso",
+    "<PER>",
+    "s\u00ec",
+    "il",
+    "tuo",
+    "cognome",
+    "\u00e8",
+    "\u00e8",
+    "<PER>",
+    "<PER>",
+    "<PER>",
+    "sono",
+    "un",
+    "consulente",
+    "dimmi",
+    "tutto",
+    "ho",
+    "un",
+    "problema",
+    "al",
+    "computer",
+    "praticamente",
+    "lo",
+    "accendo",
+    "parte",
+    "e",
+    "poi",
+    "dopo",
+    "un",
+    "po",
+    "che",
+    "che",
+    "\u00e8",
+    "acceso",
+    "non",
+    "arriva",
+    "pi\u00f9",
+    "nessun",
+    "segnale",
+    "al",
+    "monitor",
+    "il",
+    "monitor",
+    "funziona",
+    "perfettamente",
+    "bon",
+    "rimane",
+    "l\u00ec",
+    "tutto",
+    "buio",
+    "ho",
+    "provato",
+    "a",
+    "collegarlo",
+    "a",
+    "altri",
+    "monitor",
+    "ma",
+    "fa",
+    "lo",
+    "stesso",
+    "scherzo",
+    "giusto",
+    "fa",
+    "lo",
+    "stesso",
+    "problema",
+    "s\u00ec",
+    "il",
+    "problema",
+    "\u00e8",
+    "che",
+    "non",
+    "lo",
+    "fa",
+    "diciamo",
+    "sempre",
+    "a",
+    "volte",
+    "funziona",
+    "per",
+    "un",
+    "po'",
+    "e",
+    "dopo",
+    "un",
+    "po'",
+    "non",
+    "funziona",
+    "pi\u00f9",
+    "ah",
+    "ho",
+    "capito",
+    "il",
+    "computer",
+    "\u00e8",
+    "un",
+    "<BRAND>",
+    "<BRAND>",
+    "hai",
+    "mica",
+    "il",
+    "censimento",
+    "da",
+    "darmi",
+    "cosa",
+    "ti",
+    "serve",
+    "eh",
+    "guarda",
+    "dovrebbe",
+    "iniziare",
+    "con",
+    "l'anno",
+    "<NUM>",
+    "barra",
+    "<DIGIT>",
+    "<DIGIT>",
+    "undici",
+    "ovvero",
+    "<NUM>",
+    "trattino",
+    "C",
+    "<BRAND>",
+    "<BRAND>",
+    "<PER>",
+    "P",
+    "esattamen",
+    "<NUM>",
+    "corso",
+    "<PER>",
+    "<NUM>",
+    "secondo",
+    "piano",
+    "<DIGIT>",
+    "<NUM>",
+    "<DIGIT>",
+    "perfetto",
+    "stanza",
+    "<NUM>",
+    "<DIGIT>",
+    "perfetto",
+    "allora",
+    "tu",
+    "mi",
+    "hai",
+    "detto",
+    "il",
+    "monitor",
+    "non",
+    "funziona",
+    "perch\u00e9",
+    "hai",
+    "provato",
+    "a",
+    "collegarne",
+    "altri",
+    "ma",
+    "ti",
+    "da",
+    "lo",
+    "stesso",
+    "problema",
+    "s\u00ec",
+    "mi",
+    "da",
+    "lo",
+    "stesso",
+    "problema",
+    "s\u00ec",
+    "problema",
+    "giusto",
+    "okay",
+    "purtroppo",
+    "non",
+    "posso",
+    "controllare",
+    "la",
+    "mail",
+    "quindi",
+    "mi",
+    "dai",
+    "la",
+    "reme",
+    "di",
+    "adesso",
+    "non",
+    "so",
+    "come",
+    "funziona",
+    "s\u00ec",
+    "ti",
+    "lascio",
+    "subito",
+    "il",
+    "numero",
+    "di",
+    "richiesta",
+    "eh",
+    "ok",
+    "il",
+    "tuo",
+    "interno",
+    "\u00e8",
+    "no",
+    "<NUM>",
+    "perfetto",
+    "<NUM>",
+    "allora",
+    "ti",
+    "lascio",
+    "il",
+    "numero",
+    "di",
+    "richiesta",
+    "urgente",
+    "urgente",
+    "okay",
+    "salviamo",
+    "allora",
+    "la",
+    "remedy",
+    "\u00e8",
+    "la",
+    "numero",
+    "uno",
+    "<DIGIT>",
+    "<DIGIT>",
+    "s\u00ec",
+    "<NUM>",
+    "<NUM>",
+    "perfetto",
+    "naturalmente",
+    "\u00e8",
+    "classificata",
+    "urgentissima",
+    "ti",
+    "ringrazio",
+    "grazie",
+    "<NUM>",
+    "okay",
+    "prego",
+    "buona",
+    "giornata",
+    "e",
+    "buona",
+    "pasqua",
+    "grazie",
+    "altrettanto",
+    "cia",
+    "ciao",
+    "ciao",
+    "ciao"
+  ],
+  "blocks": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      23
+    ],
+    [
+      23,
+      26
+    ],
+    [
+      26,
+      28
+    ],
+    [
+      28,
+      43
+    ],
+    [
+      43,
+      57
+    ],
+    [
+      57,
+      70
+    ],
+    [
+      70,
+      75
+    ],
+    [
+      75,
+      79
+    ],
+    [
+      79,
+      87
+    ],
+    [
+      87,
+      102
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      103,
+      105
+    ],
+    [
+      105,
+      111
+    ],
+    [
+      111,
+      117
+    ],
+    [
+      117,
+      120
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      121,
+      126
+    ],
+    [
+      126,
+      127
+    ],
+    [
+      127,
+      131
+    ],
+    [
+      131,
+      133
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      134,
+      135
+    ],
+    [
+      135,
+      138
+    ],
+    [
+      138,
+      139
+    ],
+    [
+      139,
+      140
+    ],
+    [
+      140,
+      141
+    ],
+    [
+      141,
+      146
+    ],
+    [
+      146,
+      150
+    ],
+    [
+      150,
+      154
+    ],
+    [
+      154,
+      175
+    ],
+    [
+      175,
+      182
+    ],
+    [
+      182,
+      185
+    ],
+    [
+      185,
+      195
+    ],
+    [
+      195,
+      196
+    ],
+    [
+      196,
+      202
+    ],
+    [
+      202,
+      210
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      211,
+      212
+    ],
+    [
+      212,
+      216
+    ],
+    [
+      216,
+      217
+    ],
+    [
+      217,
+      218
+    ],
+    [
+      218,
+      219
+    ],
+    [
+      219,
+      220
+    ],
+    [
+      220,
+      221
+    ],
+    [
+      221,
+      233
+    ],
+    [
+      233,
+      234
+    ],
+    [
+      234,
+      240
+    ],
+    [
+      240,
+      241
+    ],
+    [
+      241,
+      243
+    ],
+    [
+      243,
+      244
+    ],
+    [
+      244,
+      248
+    ],
+    [
+      248,
+      252
+    ],
+    [
+      252,
+      253
+    ],
+    [
+      253,
+      259
+    ],
+    [
+      259,
+      262
+    ],
+    [
+      262,
+      263
+    ],
+    [
+      263,
+      265
+    ]
+  ],
+  "relations": [
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          7,
+          9
+        ]
+      ],
+      "Arg2": [
+        [
+          10,
+          14
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "e",
+          "class": "Expansion.Conjunction.Semantic conjunction"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          19,
+          23
+        ]
+      ],
+      "Arg2": [
+        [
+          23,
+          26
+        ]
+      ],
+      "Sup1": [
+        [
+          15,
+          19
+        ]
+      ],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "e",
+          "class": "Expansion.Conjunction.Semantic conjunction"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          33,
+          34
+        ]
+      ],
+      "Arg1": [
+        [
+          28,
+          33
+        ]
+      ],
+      "Arg2": [
+        [
+          34,
+          53
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Expansion.Restatement.Specification"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          34,
+          36
+        ]
+      ],
+      "Arg2": [
+        [
+          36,
+          37
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "e",
+          "class": "Temporal.Asynchronous"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          37,
+          38
+        ]
+      ],
+      "Arg1": [
+        [
+          36,
+          37
+        ]
+      ],
+      "Arg2": [
+        [
+          38,
+          53
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Temporal.Asynchronous"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          38,
+          39
+        ]
+      ],
+      "Arg1": [
+        [
+          36,
+          37
+        ]
+      ],
+      "Arg2": [
+        [
+          39,
+          53
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Temporal.Asynchronous"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          39,
+          40
+        ]
+      ],
+      "Arg1": [
+        [
+          40,
+          46
+        ]
+      ],
+      "Arg2": [
+        [
+          46,
+          53
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Temporal.Asynchronous"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          53,
+          57
+        ]
+      ],
+      "Arg2": [
+        [
+          46,
+          53
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "anche se",
+          "class": "Comparison.Concession.Semantic concession"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          53,
+          57
+        ]
+      ],
+      "Arg2": [
+        [
+          58,
+          62
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "ma",
+          "class": "Comparison.Concession.Semantic concession"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          69,
+          70
+        ]
+      ],
+      "Arg1": [
+        [
+          62,
+          69
+        ]
+      ],
+      "Arg2": [
+        [
+          70,
+          74
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Comparison.Concession.Semantic concession"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          70,
+          74
+        ]
+      ],
+      "Arg2": [
+        [
+          75,
+          79
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": []
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          84,
+          89
+        ]
+      ],
+      "Arg2": [
+        [
+          89,
+          102
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "infatti",
+          "class": "Contingency.Cause.Epistemic cause"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          95,
+          96
+        ]
+      ],
+      "Arg1": [
+        [
+          89,
+          95
+        ]
+      ],
+      "Arg2": [
+        [
+          96,
+          102
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Expansion.Conjunction.Semantic conjunction"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          163,
+          164
+        ]
+      ],
+      "Arg1": [
+        [
+          155,
+          163
+        ]
+      ],
+      "Arg2": [
+        [
+          164,
+          175
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Contingency.Cause.Epistemic cause"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          169,
+          170
+        ]
+      ],
+      "Arg1": [
+        [
+          164,
+          169
+        ]
+      ],
+      "Arg2": [
+        [
+          170,
+          175
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Comparison.Concession.Semantic concession"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          170,
+          175
+        ]
+      ],
+      "Arg2": [
+        [
+          176,
+          181
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": []
+    },
+    {
+      "Conn": [
+        [
+          191,
+          192
+        ]
+      ],
+      "Arg1": [
+        [
+          192,
+          197
+        ]
+      ],
+      "Arg2": [
+        [
+          185,
+          191
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Contingency.Cause.Speech act cause"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          203,
+          210
+        ]
+      ],
+      "Arg2": [
+        [
+          221,
+          228
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": []
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          230,
+          234
+        ]
+      ],
+      "Arg2": [
+        [
+          234,
+          244
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "EntRel",
+      "sense": []
+    },
+    {
+      "Conn": [],
+      "Arg1": [],
+      "Arg2": [
+        [
+          244,
+          248
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "EntRel",
+      "sense": []
+    }
+  ]
+}

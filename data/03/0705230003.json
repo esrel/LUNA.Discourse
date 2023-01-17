@@ -1,0 +1,508 @@
+{
+  "DOC_ID": "0705230003",
+  "tokens": [
+    "signora",
+    "s\u00ec",
+    "eccomi",
+    "qua",
+    "allora",
+    "mi",
+    "diceva",
+    "della",
+    "richiesta",
+    "<NUM>",
+    "<NUM>",
+    "<DIGIT>",
+    "<DIGIT>",
+    "<DIGIT>",
+    "s\u00ec",
+    "esatto",
+    "allora",
+    "hanno",
+    "fatto",
+    "l'intervento",
+    "s\u00ec",
+    "questa",
+    "mattina",
+    "mi",
+    "hanno",
+    "chiamato",
+    "in",
+    "realt\u00e0",
+    "ho",
+    "fatto",
+    "un",
+    "piccolo",
+    "intervento",
+    "e",
+    "sembrava",
+    "che",
+    "andasse",
+    "tutto",
+    "bene",
+    "adesso",
+    "si",
+    "\u00e8",
+    "ripresentato",
+    "di",
+    "nuovo",
+    "identico",
+    "lo",
+    "stesso",
+    "problema",
+    "identico",
+    "OK",
+    "allora",
+    "riapro",
+    "l'intervento",
+    "lo",
+    "aggiorno",
+    "s\u00ec",
+    "segnalando",
+    "appunto",
+    "che",
+    "l'evento",
+    "\u00e8",
+    "stato",
+    "fatto",
+    "per\u00f2",
+    "il",
+    "problema",
+    "persiste",
+    "persiste",
+    "le",
+    "lascio",
+    "gestito",
+    "lo",
+    "stesso",
+    "numero",
+    "di",
+    "richiesta",
+    "la",
+    "richiesta",
+    "\u00e8",
+    "per",
+    "cui",
+    "sempre",
+    "la",
+    "stessa",
+    "s\u00ec",
+    "va",
+    "bene",
+    "bene",
+    "quindi",
+    "attendo",
+    "che",
+    "mi",
+    "chiamino",
+    "la",
+    "faccio",
+    "richiamare",
+    "va",
+    "bene",
+    "ovviamente",
+    "dai",
+    "miei",
+    "colleghi",
+    "grazie",
+    "grazie",
+    "a",
+    "lei",
+    "<NUM>",
+    "signora",
+    "buona",
+    "giornata",
+    "salve"
+  ],
+  "blocks": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      16,
+      20
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      26,
+      39
+    ],
+    [
+      39,
+      45
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      46,
+      49
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      51,
+      56
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      69,
+      74
+    ],
+    [
+      74,
+      77
+    ],
+    [
+      77,
+      82
+    ],
+    [
+      82,
+      85
+    ],
+    [
+      85,
+      86
+    ],
+    [
+      86,
+      88
+    ],
+    [
+      88,
+      91
+    ],
+    [
+      91,
+      94
+    ],
+    [
+      94,
+      97
+    ],
+    [
+      97,
+      99
+    ],
+    [
+      99,
+      102
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      103,
+      104
+    ],
+    [
+      104,
+      107
+    ],
+    [
+      107,
+      108
+    ],
+    [
+      108,
+      111
+    ],
+    [
+      111,
+      112
+    ]
+  ],
+  "relations": [
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          20,
+          21
+        ]
+      ],
+      "Arg2": [
+        [
+          21,
+          26
+        ]
+      ],
+      "Sup1": [
+        [
+          16,
+          20
+        ]
+      ],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "infatti",
+          "class": "Contingency.Cause.Epistemic cause"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          33,
+          34
+        ]
+      ],
+      "Arg1": [
+        [
+          26,
+          33
+        ]
+      ],
+      "Arg2": [
+        [
+          34,
+          39
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Expansion.Conjunction.Semantic conjunction"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          34,
+          39
+        ]
+      ],
+      "Arg2": [
+        [
+          39,
+          44
+        ],
+        [
+          46,
+          48
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "ma",
+          "class": "Comparison.Concession.Semantic concession"
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          51,
+          52
+        ]
+      ],
+      "Arg1": [
+        [
+          52,
+          54
+        ]
+      ],
+      "Arg2": [
+        [
+          46,
+          49
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Contingency.Condition.Semantic condition"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          52,
+          54
+        ]
+      ],
+      "Arg2": [
+        [
+          54,
+          56
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "e",
+          "class": [
+            "Expansion.Conjunction.Semantic conjunction",
+            "Contingency.Goal.Semantic goal"
+          ]
+        }
+      ]
+    },
+    {
+      "Conn": [
+        [
+          64,
+          65
+        ]
+      ],
+      "Arg1": [
+        [
+          60,
+          64
+        ]
+      ],
+      "Arg2": [
+        [
+          65,
+          68
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Comparison.Concession.Semantic concession"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          65,
+          68
+        ]
+      ],
+      "Arg2": [
+        [
+          67,
+          68
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": []
+    },
+    {
+      "Conn": [
+        [
+          80,
+          82
+        ]
+      ],
+      "Arg1": [
+        [
+          77,
+          79
+        ],
+        [
+          82,
+          84
+        ]
+      ],
+      "Arg2": [
+        [
+          69,
+          77
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Explicit",
+      "sense": [
+        {
+          "connective": null,
+          "class": "Contingency.Cause.Semantic cause"
+        }
+      ]
+    },
+    {
+      "Conn": [],
+      "Arg1": [
+        [
+          90,
+          94
+        ]
+      ],
+      "Arg2": [
+        [
+          94,
+          96
+        ],
+        [
+          99,
+          102
+        ]
+      ],
+      "Sup1": [],
+      "Sup2": [],
+      "type": "Implicit",
+      "sense": [
+        {
+          "connective": "allora",
+          "class": "Expansion.Restatement.Specification"
+        }
+      ]
+    }
+  ]
+}
