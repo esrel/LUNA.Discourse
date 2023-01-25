@@ -115,24 +115,24 @@ Each sense has the `connective` & `sense` fields; where `connective` field is on
 
 The data has been anonymized at token-level using the following conversions:
 
-| Replacement | Freq | Description                                     |
-|:------------|-----:|:------------------------------------------------|
-| <NUM>       |  337 | number-words; e.g. `duomilasei`                 |
-| <ORD>       |   29 | ordinals; e.g. `quarto`                         | 
-| <DIGIT>     |  740 | digit-words; e.g. `due`                         |
-| <CHAR>      |   86 | letter; e.g. `C`                                |
-| <PUNC>      |   18 | punctuation; e.g. `barra`                       |
-| <WORD>      |   11 | a word to be masked; e.g. password, spelling    |
-| <CHARS>     |    5 | a sequence of letters (abbreviation); e.g. `SG` |
-| <BRAND>     |   36 | brands (hardware); e.g. `Fujitsu`               |
-| <SW>        |  159 | software; e.g. `Windows`                        |
-| <PER>       |  278 | person names; e.g. `Monica`                     |
-| <ORG>       |   54 | named organizations; e.g. `CSI`                 |
-| <LOC>       |  126 | locations; e.g. `Italia`                        |
-| <LOC.SPELL> |   25 | locations for spelling; e.g. `Ancona`           |
-| <WD>        |   13 | week days; e.g. `domenica`                      |
-| <MM>        |   13 | month names; e.g. `gennaio`                     |
-| <MISC>      |    2 | other; not covered above                        |
+| Replacement   | Freq | Description                                     |
+|:--------------|-----:|:------------------------------------------------|
+| `<NUM>`       |  337 | number-words; e.g. `duomilasei`                 |
+| `<ORD>`       |   29 | ordinals; e.g. `quarto`                         | 
+| `<DIGIT>`     |  740 | digit-words; e.g. `due`                         |
+| `<CHAR>`      |   86 | letter; e.g. `C`                                |
+| `<PUNC>`      |   18 | punctuation; e.g. `barra`                       |
+| `<WORD>`      |   11 | a word to be masked; e.g. password, spelling    |
+| `<CHARS>`     |    5 | a sequence of letters (abbreviation); e.g. `SG` |
+| `<BRAND>`     |   36 | brands (hardware); e.g. `Fujitsu`               |
+| `<SW>`        |  159 | software; e.g. `Windows`                        |
+| `<PER>`       |  278 | person names; e.g. `Monica`                     |
+| `<ORG>`       |   54 | named organizations; e.g. `CSI`                 |
+| `<LOC>`       |  126 | locations; e.g. `Italia`                        |
+| `<LOC.SPELL>` |   25 | locations for spelling; e.g. `Ancona`           |
+| `<WD>`        |   13 | week days; e.g. `domenica`                      |
+| `<MM>`        |   13 | month names; e.g. `gennaio`                     |
+| `<MISC>`      |    2 | other; not covered above                        |
 
 
 ## Known Issues, Peculiarities and TODOs
