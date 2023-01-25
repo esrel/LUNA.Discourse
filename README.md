@@ -236,7 +236,7 @@ Refer to Tonelli et al. (2010) for further detail.
 - Semantic
 - Speech act
 
-`Explansion.Reatatement` is further categorized into:
+`Expansion.Restatement` is further categorized into:
   - `Expansion.Restatement.Equivalence`
   - `Expansion.Restatement.Specification`
 

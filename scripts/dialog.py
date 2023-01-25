@@ -29,7 +29,7 @@ Span = t.List[Slice]
 class DiscourseRelation:
     # label(s)
     label: str  # type in RELATION_TYPES
-    sense: t.List[t.Dict[str, str]] = None
+    sense: t.Union[str, t.List[t.Dict[str, str]]] = None
     # spans
     conn: Span = None
     arg1: Span = None
@@ -49,6 +49,7 @@ class DiscourseRelation:
         self.sup2 = [] if self.sup2 is None else sanitize_span(self.sup2)
 
         self.validate()
+        self.decide()  # comment to keep all connectives & senses
 
     def validate(self):
         """ basic validation for a relation element values """
@@ -67,12 +68,38 @@ class DiscourseRelation:
             if not all(x.get("sense") for x in self.sense):
                 w.warn(f"{self.label} Discourse Relation has no sense annotation: {self.sense}")
 
-
-
         # validate token roles
         for index, roles in self.astokens().items():
             if len(roles) > 1:
                 w.warn(f"Token {index} has roles: {roles} in {self.label} relation.")
+
+    def decide(self,
+               conns: int = 0,
+               sense: int = 0,
+               level: int = 2,
+               store: t.List[str] = None
+               ):
+        """
+        decide on relation sense: reduce sense to a string
+        :param conns: connective to consider, if several are present
+        :param sense: sense of a connective to consider, if several are present
+        :param level: level of a sense to get
+        :param store: list of relation senses to keep as is
+        :return:
+        """
+        store = ['Expansion.Restatement.Equivalence', 'Expansion.Restatement.Specification'] if store is None else store
+        if not self.sense:
+            self.sense = str(None)
+        else:
+            # mix of strings and lists
+            senses = [x.get("sense") for x in self.sense]
+            # select connective
+            senses = senses[0] if len(senses) - 1 < conns else senses[conns]
+            # select connective sense
+            sense_ = (senses[0] if len(senses) - 1 < sense else senses[sense]) if type(senses) is list else senses
+            # reduce connective sense to a level
+            sense_ = ".".join(sense_.split('.')[:level]) if sense_ not in store else sense_
+            self.sense = sense_
 
     def astokens(self) -> t.Dict[int, t.List[str]]:
         """
@@ -206,4 +233,5 @@ if __name__ == "__main__":
     args = arg_parser.parse_args()
 
     dialog = load(args.data)
-    print(dialog)
+    print(dialog.doc_id)
+    print([(r.label, r.sense) for r in dialog.relations])
