@@ -140,17 +140,29 @@ The data has been anonymized at token-level using the following conversions:
 - `070400_0020`: `conn` and `arg2` spans overlap in `Explicit` relation
 
 - 2 sense relations (3):
-  - `0703000001`: 2
-  - `0704000001`: 1
 
-- 0 sense relations (8) :
-  - `0703000006`: 1
-  - `0704000001`: 1
-  - `0704000025`: 1
-  - `0704000031`: 1
-  - `0704000034`: 1
-  - `0704000051`: 2
-  - `0705000003`: 1
+  - Relation Types
+    - Implicit: 3
+  
+  - IDs
+    - `0703000001`: 2
+    - `0704000001`: 1
+
+- 0 sense relations (8):
+
+  - Relation Types
+    - Explicit: 4
+    - Implicit: 3
+    - AltLex: 1
+
+  - IDs 
+    - `0703000006`: 1
+    - `0704000001`: 1
+    - `0704000025`: 1
+    - `0704000031`: 1
+    - `0704000034`: 1
+    - `0704000051`: 2
+    - `0705000003`: 1
 
 
 ## References
