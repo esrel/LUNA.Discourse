@@ -135,11 +135,123 @@ The data has been anonymized at token-level using the following conversions:
 | `<MISC>`      |    2 | other; not covered above                        |
 
 
+## Relation Types
+
+| Type     |   ALL |   TRN |   DEV |   TST |
+|:---------|------:|------:|------:|------:|
+| Explicit | 1,052 |   659 |   135 |   258 |
+| Implicit |   490 |   294 |    74 |   122 |
+| AltLex   |    11 |     8 |     2 |     1 |
+| EntRel   |    56 |    33 |     7 |    16 |
+
+
+## Relation Senses as Sense 1
+
+### Additional Senses
+
+- Discourse Marker
+- Interrupted
+- Repetition
+
+
+### Sense Counts
+
+LUNA (and PDTB) Discourse Relations Senses are 3 level:
+e.g. `Comparison.Concession.Epistemic concession`.
+It is often the case that relations are annotated up to certain level;
+i.e. not all relations have all 3 levels.
+
+`EntRel` has no senses.
+
+There are 3 *Implicit* discourse relations that contain 2nd connective and its sense;
+the counts below do not include those:
+
+- Comparison.Concession.Semantic concession (1)
+- Expansion.Conjunction (1)
+
+There are 3 *Explicit* and 3 *Implicit* discourse relations that contain 2 senses
+(for the 1st connective).
+
+- Explicit
+  - Comparison
+  - Expansion.Conjunction
+  - Temporal.Asynchronous
+  
+- Implicit
+  - Comparison.Concession
+  - Contingency.Cause
+  - Contingency.Goal
+
+
+#### Level 1 Senses
+
+| Sense            | Explicit | Implicit | AltLex |
+|:-----------------|---------:|---------:|-------:|
+| Comparison       |      187 |       47 |      0 |
+| Contingency      |      462 |      106 |      3 |
+| Expansion        |      213 |      161 |      4 |
+| Temporal         |      156 |       64 |      0 |
+| Interrupted      |       29 |        1 |      0 |
+| Repetition       |        0 |      108 |      0 |
+| Discourse Marker |        1 |        0 |      0 |
+| MISSING          |        4 |        3 |      1 |
+
+
+#### Level 2 Senses
+
+| Sense                   | Explicit | Implicit | AltLex |
+|:------------------------|---------:|---------:|-------:|
+| Comparison (no L2)      |        1 |        0 |      0 |
+| Comparison.Concession   |      144 |       27 |      0 |
+| Comparison.Contrast     |       42 |       20 |      0 |
+| Contingency (no L2)     |        1 |        0 |      0 |
+| Contingency.Cause       |      265 |       88 |      2 |
+| Contingency.Condition   |      124 |        8 |      1 |
+| Contingency.Goal        |       73 |       10 |      1 |
+| Expansion (no L2)       |        1 |        0 |      0 |
+| Expansion.Alternative   |       28 |        3 |      1 |
+| Expansion.Conjunction   |      111 |       70 |      1 |
+| Expansion.Instantiation |        8 |        3 |      1 |
+| Expansion.Restatement   |       65 |       85 |      3 |
+| Temporal (no L2)        |        0 |        0 |      0 |
+| Temporal.Asynchronous   |      128 |       55 |      3 |
+| Temporal.Synchrony      |       28 |        9 |      3 |
+| Interrupted             |       29 |        1 |      0 |
+| Repetition              |        0 |      108 |      0 |
+| Discourse Marker        |        1 |        0 |      0 |
+| MISSING                 |        4 |        3 |      1 |
+
+
+#### Level 3+ Senses
+
+Level 3 senses are better ignored due to data sparsity.
+The 3rd level further categorizes L2 relations into the following types:
+(as `Comparison.Concession.Epistemic concession`, `Contingency.Cause.Semantic cause`, etc.).
+Refer to Tonelli et al. (2010) for further detail.
+
+- Epistemic
+- Inferential
+- Pragmatic
+- Propositional
+- Semantic
+- Speech act
+
+`Explansion.Reatatement` is further categorized into:
+  - `Expansion.Restatement.Equivalence`
+  - `Expansion.Restatement.Specification`
+
+
 ## Known Issues, Peculiarities and TODOs
 
 - `070400_0020`: `conn` and `arg2` spans overlap in `Explicit` relation
 
-- 2 sense relations (3):
+- 2 sense relations (6):
+
+  - Relation Types:
+    - Explicit: 3
+    - Implicit: 3
+
+- 2 connective relations (3):
 
   - Relation Types
     - Implicit: 3
