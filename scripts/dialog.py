@@ -125,7 +125,7 @@ class Dialog:
 
         # group info
         if self.groups:
-            for i, (b, e) in enumerate(self.blocks):
+            for i, (b, e) in enumerate(self.groups):
                 for j in range(b, e):
                     tokens[j].group = i
 
