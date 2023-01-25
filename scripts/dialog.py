@@ -59,10 +59,15 @@ class DiscourseRelation:
         # validate sense
         if self.sense:
             if len(self.sense) > 1:
-                w.warn(f"Discourse Relation has {len(self.sense)} senses: {self.sense}")
+                w.warn(f"{self.label} Discourse Relation has {len(self.sense)} connective candidates: {self.sense}")
+
+            if any(type(x.get("sense")) is list for x in self.sense):
+                w.warn(f"{self.label} Discourse Relation has multi-sense connective: {self.sense}")
 
             if not all(x.get("sense") for x in self.sense):
-                w.warn(f"Discourse Relation has no sense label: {self.sense}")
+                w.warn(f"{self.label} Discourse Relation has no sense annotation: {self.sense}")
+
+
 
         # validate token roles
         for index, roles in self.astokens().items():
@@ -174,7 +179,7 @@ def load(path: str) -> Dialog:
     """
     data = json.load(open(path, 'r'))
     return Dialog(
-        doc_id=data.get("DOC_ID"),
+        doc_id=data.get("doc_id"),
         tokens=data.get("tokens"),
         blocks=data.get("blocks"),
         chunks=data.get("chunks"),
