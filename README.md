@@ -151,3 +151,16 @@ The data has been anonymized at token-level using the following conversions:
   - `0704000034`: 1
   - `0704000051`: 2
   - `0705000003`: 1
+
+
+## References
+
+If you use this dataset for publication, please cite the following papers:
+
+- Sara Tonelli, Giuseppe Riccardi, Rashmi Prasad, and Aravind K. Joshi, 
+  "Annotation of discourse relations for conversational spoken dialogs.",
+  In Proceedings of the International Conference on Language Resources and Evaluation (LREC), 2010.
+
+- Giuseppe Riccardi, Evgeny A. Stepanov, and Shammur Absar Chowdhury. 
+  "Discourse connective detection in spoken conversations.",
+  IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP), 2016.
