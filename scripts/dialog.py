@@ -17,6 +17,7 @@ import argparse
 
 
 RELATION_TYPES = ["Explicit", "Implicit", "AltLex", "EntRel", "NoRel"]
+RELATION_SENSE = ["Explicit", "Implicit", "AltLex"]
 
 
 # continuous slice of a sequence as (begin, end)
@@ -28,8 +29,9 @@ Span = t.List[Slice]
 @dataclass
 class DiscourseRelation:
     # label(s)
-    label: str  # type in RELATION_TYPES
-    sense: t.Union[str, t.List[t.Dict[str, str]]] = None
+    label: str  # discourse relation type from RELATION_TYPES
+    sense: str = None  # discourse relation sense
+    conns: str = None  # discourse connective string (for Implicit relations)
     # spans
     conn: Span = None
     arg1: Span = None
@@ -49,57 +51,24 @@ class DiscourseRelation:
         self.sup2 = [] if self.sup2 is None else sanitize_span(self.sup2)
 
         self.validate()
-        self.decide()  # comment to keep all connectives & senses
 
     def validate(self):
         """ basic validation for a relation element values """
+        # set warnings to repeat
+        w.simplefilter('always', UserWarning)
+
         # validate label (relation type)
         if self.label not in RELATION_TYPES:
             raise ValueError(f"Unknown Discourse Relation Type: '{self.label}'")
 
         # validate sense
-        if self.sense:
-            if len(self.sense) > 1:
-                w.warn(f"{self.label} Discourse Relation has {len(self.sense)} connective candidates: {self.sense}")
-
-            if any(type(x.get("sense")) is list for x in self.sense):
-                w.warn(f"{self.label} Discourse Relation has multi-sense connective: {self.sense}")
-
-            if not all(x.get("sense") for x in self.sense):
-                w.warn(f"{self.label} Discourse Relation has no sense annotation: {self.sense}")
+        if not self.sense and self.label in RELATION_SENSE:
+            w.warn(f"{self.label} Discourse Relation has no 'sense': {self.sense}")
 
         # validate token roles
         for index, roles in self.astokens().items():
             if len(roles) > 1:
                 w.warn(f"Token {index} has roles: {roles} in {self.label} relation.")
-
-    def decide(self,
-               conns: int = 0,
-               sense: int = 0,
-               level: int = 2,
-               store: t.List[str] = None
-               ):
-        """
-        decide on relation sense: reduce sense to a string
-        :param conns: connective to consider, if several are present
-        :param sense: sense of a connective to consider, if several are present
-        :param level: level of a sense to get
-        :param store: list of relation senses to keep as is
-        :return:
-        """
-        store = ['Expansion.Restatement.Equivalence', 'Expansion.Restatement.Specification'] if store is None else store
-        if not self.sense:
-            self.sense = str(None)
-        else:
-            # mix of strings and lists
-            senses = [x.get("sense") for x in self.sense]
-            # select connective
-            senses = senses[0] if len(senses) - 1 < conns else senses[conns]
-            # select connective sense
-            sense_ = (senses[0] if len(senses) - 1 < sense else senses[sense]) if type(senses) is list else senses
-            # reduce connective sense to a level
-            sense_ = ".".join(sense_.split('.')[:level]) if sense_ not in store else sense_
-            self.sense = sense_
 
     def astokens(self) -> t.Dict[int, t.List[str]]:
         """
@@ -119,7 +88,6 @@ class Token:
     roles: t.Dict[str, Span] = None
 
     block: t.Union[int, str] = None  # block index within dialog (from parses)
-    chunk: t.Union[int, str] = None  # chunk index within dialog (from raw text)
     group: t.Union[int, str] = None  # group index within dialog (from raw text)
 
 
@@ -128,9 +96,19 @@ class Dialog:
     doc_id: str
     tokens: t.List[str]
     blocks: t.List[Slice] = None
-    chunks: t.List[Slice] = None
     groups: t.List[Slice] = None
     relations: t.List[DiscourseRelation] = None
+
+    @property
+    def info(self) -> t.Dict[str, t.Union[str, int]]:
+        """ return basic info as dict """
+        return {
+            "doc_id": self.doc_id,
+            "tokens": len(self.tokens),
+            "blocks": len(self.blocks),
+            "groups": len(self.groups),
+            "relations": len(self.relations)
+        }
 
     def dump(self, path: str = None):
         if not path:
@@ -148,12 +126,6 @@ class Dialog:
             for i, (b, e) in enumerate(self.blocks):
                 for j in range(b, e):
                     tokens[j].block = i
-
-        # chunk info
-        if self.chunks:
-            for i, (b, e) in enumerate(self.chunks):
-                for j in range(b, e):
-                    tokens[j].chunk = i
 
         # group info
         if self.groups:
@@ -209,7 +181,6 @@ def load(path: str) -> Dialog:
         doc_id=data.get("doc_id"),
         tokens=data.get("tokens"),
         blocks=data.get("blocks"),
-        chunks=data.get("chunks"),
         groups=data.get("groups"),
         relations=[DiscourseRelation(**{k.lower(): v for k, v in rel.items()}) for rel in data.get("relations", [])]
     )
@@ -233,5 +204,5 @@ if __name__ == "__main__":
     args = arg_parser.parse_args()
 
     dialog = load(args.data)
-    print(dialog.doc_id)
-    print([(r.label, r.sense) for r in dialog.relations])
+
+    print(dialog.info)
