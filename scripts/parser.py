@@ -13,6 +13,20 @@ import csv
 import argparse
 
 
+# generic tabular file reader
+def read_tabular(path: str, delimiter: str = "\t") -> t.List[t.Tuple[str, ...]]:
+    """
+    read tabular file: TSV, CSV, etc
+    :param path:
+    :param delimiter:
+    :return:
+    """
+    with open(path, 'r') as fh:
+        reader = csv.reader(fh, delimiter=delimiter)
+        rows = [tuple([c.strip() for c in row]) for row in reader]
+        return rows
+
+
 # mask file parsing
 def parse_mask(path: str) -> t.Dict[str, t.List[str]]:
     """
@@ -20,12 +34,10 @@ def parse_mask(path: str) -> t.Dict[str, t.List[str]]:
     :param path:
     :return: dict of document token lists
     """
-    with open(path, 'r') as fh:
-        reader = csv.reader(fh, delimiter="\t")
-        rows = [tuple([c.strip() for c in row]) for row in reader]
-        docs = defaultdict(list)
-        [docs[row[0]].append(row[-1]) for row in rows]
-        return docs
+    rows = read_tabular(path, delimiter="\t")
+    docs = defaultdict(list)
+    [docs[row[0]].append(row[-1]) for row in rows]
+    return docs
 
 
 # raw text file parsing
@@ -35,7 +47,8 @@ def parse_raw(path: str) -> t.Tuple[str, t.List[str], t.List[Slice], t.List[Slic
     :param path:
     :return: text, tokens, blocks, groups, token indices
     """
-    with open(path, 'r') as fh:  # encoding='utf-8-sig'
+    # add encoding='utf-8-sig' to remove BOM
+    with open(path, 'r') as fh:
         text = fh.read()
         groups = tokenize(text, prep=True)
         merged = [[token for block in group for token in block] for group in groups]
@@ -53,10 +66,8 @@ def parse_ann(path: str) -> t.List[t.Dict]:
     :param path:
     :return:
     """
-    with open(path, 'r') as fh:
-        reader = csv.reader(fh, delimiter="|")
-        rows = [tuple([c.strip() for c in row]) for row in reader]
-        return [annotation(row) for row in rows]
+    rows = read_tabular(path, delimiter="|")
+    return [annotation(row) for row in rows]
 
 
 def tokenize(text: str, prep: bool = False) -> t.List[t.List[t.List[str]]]:
