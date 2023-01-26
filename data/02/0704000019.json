@@ -571,304 +571,6 @@
       271
     ]
   ],
-  "chunks": [
-    [
-      0,
-      1
-    ],
-    [
-      1,
-      2
-    ],
-    [
-      2,
-      14
-    ],
-    [
-      14,
-      17
-    ],
-    [
-      17,
-      21
-    ],
-    [
-      21,
-      25
-    ],
-    [
-      25,
-      27
-    ],
-    [
-      27,
-      28
-    ],
-    [
-      28,
-      39
-    ],
-    [
-      39,
-      46
-    ],
-    [
-      46,
-      51
-    ],
-    [
-      51,
-      52
-    ],
-    [
-      52,
-      53
-    ],
-    [
-      53,
-      54
-    ],
-    [
-      54,
-      57
-    ],
-    [
-      57,
-      78
-    ],
-    [
-      78,
-      79
-    ],
-    [
-      79,
-      83
-    ],
-    [
-      83,
-      84
-    ],
-    [
-      84,
-      89
-    ],
-    [
-      89,
-      91
-    ],
-    [
-      91,
-      92
-    ],
-    [
-      92,
-      97
-    ],
-    [
-      97,
-      98
-    ],
-    [
-      98,
-      100
-    ],
-    [
-      100,
-      103
-    ],
-    [
-      103,
-      105
-    ],
-    [
-      105,
-      110
-    ],
-    [
-      110,
-      112
-    ],
-    [
-      112,
-      120
-    ],
-    [
-      120,
-      121
-    ],
-    [
-      121,
-      127
-    ],
-    [
-      127,
-      133
-    ],
-    [
-      133,
-      135
-    ],
-    [
-      135,
-      137
-    ],
-    [
-      137,
-      139
-    ],
-    [
-      139,
-      148
-    ],
-    [
-      148,
-      149
-    ],
-    [
-      149,
-      150
-    ],
-    [
-      150,
-      153
-    ],
-    [
-      153,
-      154
-    ],
-    [
-      154,
-      156
-    ],
-    [
-      156,
-      167
-    ],
-    [
-      167,
-      173
-    ],
-    [
-      173,
-      174
-    ],
-    [
-      174,
-      179
-    ],
-    [
-      179,
-      181
-    ],
-    [
-      181,
-      188
-    ],
-    [
-      188,
-      198
-    ],
-    [
-      198,
-      199
-    ],
-    [
-      199,
-      200
-    ],
-    [
-      200,
-      201
-    ],
-    [
-      201,
-      202
-    ],
-    [
-      202,
-      204
-    ],
-    [
-      204,
-      205
-    ],
-    [
-      205,
-      212
-    ],
-    [
-      212,
-      213
-    ],
-    [
-      213,
-      222
-    ],
-    [
-      222,
-      223
-    ],
-    [
-      223,
-      224
-    ],
-    [
-      224,
-      225
-    ],
-    [
-      225,
-      226
-    ],
-    [
-      226,
-      227
-    ],
-    [
-      227,
-      244
-    ],
-    [
-      244,
-      245
-    ],
-    [
-      245,
-      247
-    ],
-    [
-      247,
-      248
-    ],
-    [
-      248,
-      252
-    ],
-    [
-      252,
-      256
-    ],
-    [
-      256,
-      260
-    ],
-    [
-      260,
-      261
-    ],
-    [
-      261,
-      266
-    ],
-    [
-      266,
-      269
-    ],
-    [
-      269,
-      271
-    ]
-  ],
   "groups": [
     [
       0,
@@ -1038,12 +740,8 @@
   "relations": [
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": null,
       "conn": [
         [
           34,
@@ -1067,12 +765,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "quindi",
-          "sense": "Contingency.Cause.Semantic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": "quindi",
       "conn": [],
       "arg1": [
         [
@@ -1091,12 +785,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "e",
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": "e",
       "conn": [],
       "arg1": [
         [
@@ -1115,12 +805,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": null,
       "conn": [
         [
           68,
@@ -1144,12 +830,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": null,
       "conn": [
         [
           69,
@@ -1173,12 +855,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Temporal.Synchrony"
-        }
-      ],
+      "sense": "Temporal.Synchrony",
+      "conns": null,
       "conn": [
         [
           72,
@@ -1202,7 +880,8 @@
     },
     {
       "label": "EntRel",
-      "sense": [],
+      "sense": null,
+      "conns": null,
       "conn": [],
       "arg1": [
         [
@@ -1221,7 +900,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [],
+      "sense": "Repetition",
+      "conns": null,
       "conn": [],
       "arg1": [
         [
@@ -1240,7 +920,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [],
+      "sense": "Repetition",
+      "conns": null,
       "conn": [],
       "arg1": [
         [
@@ -1259,12 +940,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "e",
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": "e",
       "conn": [],
       "arg1": [
         [
@@ -1283,19 +960,20 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Goal.Speech act goal"
-        }
-      ],
+      "sense": "Contingency.Goal",
+      "conns": null,
       "conn": [
         [
           199,
           200
         ]
       ],
-      "arg1": [],
+      "arg1": [
+        [
+          188,
+          198
+        ]
+      ],
       "arg2": [
         [
           200,
@@ -1311,19 +989,20 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Expansion.Restatement.Specification"
-        }
-      ],
+      "sense": "Expansion.Restatement.Specification",
+      "conns": null,
       "conn": [
         [
           215,
           216
         ]
       ],
-      "arg1": [],
+      "arg1": [
+        [
+          188,
+          198
+        ]
+      ],
       "arg2": [
         [
           216,
@@ -1343,12 +1022,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Condition.Speech act condition"
-        }
-      ],
+      "sense": "Contingency.Condition",
+      "conns": null,
       "conn": [
         [
           232,

@@ -1061,484 +1061,6 @@
       581
     ]
   ],
-  "chunks": [
-    [
-      0,
-      4
-    ],
-    [
-      4,
-      12
-    ],
-    [
-      12,
-      25
-    ],
-    [
-      25,
-      26
-    ],
-    [
-      26,
-      29
-    ],
-    [
-      29,
-      34
-    ],
-    [
-      34,
-      36
-    ],
-    [
-      36,
-      38
-    ],
-    [
-      38,
-      43
-    ],
-    [
-      43,
-      44
-    ],
-    [
-      44,
-      45
-    ],
-    [
-      45,
-      46
-    ],
-    [
-      46,
-      68
-    ],
-    [
-      68,
-      73
-    ],
-    [
-      73,
-      75
-    ],
-    [
-      75,
-      88
-    ],
-    [
-      88,
-      91
-    ],
-    [
-      91,
-      100
-    ],
-    [
-      100,
-      111
-    ],
-    [
-      111,
-      112
-    ],
-    [
-      112,
-      114
-    ],
-    [
-      114,
-      129
-    ],
-    [
-      129,
-      135
-    ],
-    [
-      135,
-      136
-    ],
-    [
-      136,
-      141
-    ],
-    [
-      141,
-      148
-    ],
-    [
-      148,
-      150
-    ],
-    [
-      150,
-      152
-    ],
-    [
-      152,
-      155
-    ],
-    [
-      155,
-      167
-    ],
-    [
-      167,
-      169
-    ],
-    [
-      169,
-      170
-    ],
-    [
-      170,
-      171
-    ],
-    [
-      171,
-      189
-    ],
-    [
-      189,
-      193
-    ],
-    [
-      193,
-      194
-    ],
-    [
-      194,
-      199
-    ],
-    [
-      199,
-      202
-    ],
-    [
-      202,
-      215
-    ],
-    [
-      215,
-      216
-    ],
-    [
-      216,
-      219
-    ],
-    [
-      219,
-      222
-    ],
-    [
-      222,
-      227
-    ],
-    [
-      227,
-      230
-    ],
-    [
-      230,
-      234
-    ],
-    [
-      234,
-      235
-    ],
-    [
-      235,
-      238
-    ],
-    [
-      238,
-      239
-    ],
-    [
-      239,
-      244
-    ],
-    [
-      244,
-      245
-    ],
-    [
-      245,
-      248
-    ],
-    [
-      248,
-      250
-    ],
-    [
-      250,
-      261
-    ],
-    [
-      261,
-      269
-    ],
-    [
-      269,
-      273
-    ],
-    [
-      273,
-      296
-    ],
-    [
-      296,
-      297
-    ],
-    [
-      297,
-      299
-    ],
-    [
-      299,
-      300
-    ],
-    [
-      300,
-      301
-    ],
-    [
-      301,
-      329
-    ],
-    [
-      329,
-      330
-    ],
-    [
-      330,
-      332
-    ],
-    [
-      332,
-      333
-    ],
-    [
-      333,
-      341
-    ],
-    [
-      341,
-      342
-    ],
-    [
-      342,
-      345
-    ],
-    [
-      345,
-      347
-    ],
-    [
-      347,
-      361
-    ],
-    [
-      361,
-      362
-    ],
-    [
-      362,
-      363
-    ],
-    [
-      363,
-      379
-    ],
-    [
-      379,
-      382
-    ],
-    [
-      382,
-      383
-    ],
-    [
-      383,
-      386
-    ],
-    [
-      386,
-      392
-    ],
-    [
-      392,
-      397
-    ],
-    [
-      397,
-      404
-    ],
-    [
-      404,
-      413
-    ],
-    [
-      413,
-      416
-    ],
-    [
-      416,
-      417
-    ],
-    [
-      417,
-      419
-    ],
-    [
-      419,
-      422
-    ],
-    [
-      422,
-      424
-    ],
-    [
-      424,
-      425
-    ],
-    [
-      425,
-      427
-    ],
-    [
-      427,
-      429
-    ],
-    [
-      429,
-      430
-    ],
-    [
-      430,
-      440
-    ],
-    [
-      440,
-      442
-    ],
-    [
-      442,
-      453
-    ],
-    [
-      453,
-      456
-    ],
-    [
-      456,
-      461
-    ],
-    [
-      461,
-      462
-    ],
-    [
-      462,
-      463
-    ],
-    [
-      463,
-      464
-    ],
-    [
-      464,
-      465
-    ],
-    [
-      465,
-      466
-    ],
-    [
-      466,
-      467
-    ],
-    [
-      467,
-      468
-    ],
-    [
-      468,
-      477
-    ],
-    [
-      477,
-      486
-    ],
-    [
-      486,
-      510
-    ],
-    [
-      510,
-      513
-    ],
-    [
-      513,
-      517
-    ],
-    [
-      517,
-      519
-    ],
-    [
-      519,
-      525
-    ],
-    [
-      525,
-      526
-    ],
-    [
-      526,
-      528
-    ],
-    [
-      528,
-      529
-    ],
-    [
-      529,
-      536
-    ],
-    [
-      536,
-      538
-    ],
-    [
-      538,
-      541
-    ],
-    [
-      541,
-      567
-    ],
-    [
-      567,
-      570
-    ],
-    [
-      570,
-      572
-    ],
-    [
-      572,
-      574
-    ],
-    [
-      574,
-      577
-    ],
-    [
-      577,
-      581
-    ]
-  ],
   "groups": [
     [
       0,
@@ -1852,12 +1374,8 @@
   "relations": [
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "perch\u00e8",
-          "sense": "Contingency.Cause.Epistemic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": "perch\u00e8",
       "conn": [],
       "arg1": [
         [
@@ -1880,12 +1398,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "infatti",
-          "sense": "Expansion.Restatement.Equivalence"
-        }
-      ],
+      "sense": "Expansion.Restatement.Equivalence",
+      "conns": "infatti",
       "conn": [],
       "arg1": [
         [
@@ -1908,12 +1422,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Expansion.Conjunction.Semantic conjunction"
-        }
-      ],
+      "sense": "Expansion.Conjunction",
+      "conns": null,
       "conn": [
         [
           46,
@@ -1937,12 +1447,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Expansion.Conjunction.Semantic conjunction"
-        }
-      ],
+      "sense": "Expansion.Conjunction",
+      "conns": null,
       "conn": [
         [
           59,
@@ -1966,12 +1472,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "quindi",
-          "sense": "Expansion.Restatement.Equivalence"
-        }
-      ],
+      "sense": "Expansion.Restatement.Equivalence",
+      "conns": "quindi",
       "conn": [],
       "arg1": [
         [
@@ -1990,12 +1492,33 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Expansion.Conjunction.Semantic conjunction"
-        }
+      "sense": "Expansion.Conjunction",
+      "conns": null,
+      "conn": [
+        [
+          75,
+          76
+        ]
       ],
+      "arg1": [
+        [
+          68,
+          73
+        ]
+      ],
+      "arg2": [
+        [
+          76,
+          88
+        ]
+      ],
+      "sup1": [],
+      "sup2": []
+    },
+    {
+      "label": "Explicit",
+      "sense": "Expansion.Conjunction",
+      "conns": null,
       "conn": [
         [
           100,
@@ -2022,37 +1545,9 @@
       "sup2": []
     },
     {
-      "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Expansion.Conjunction.Speech act conjunction"
-        }
-      ],
-      "conn": [
-        [
-          75,
-          76
-        ]
-      ],
-      "arg1": [
-        [
-          68,
-          73
-        ]
-      ],
-      "arg2": [
-        [
-          76,
-          88
-        ]
-      ],
-      "sup1": [],
-      "sup2": []
-    },
-    {
       "label": "Implicit",
-      "sense": [],
+      "sense": "Repetition",
+      "conns": null,
       "conn": [],
       "arg1": [
         [
@@ -2071,12 +1566,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Condition.Speech act condition"
-        }
-      ],
+      "sense": "Contingency.Condition",
+      "conns": null,
       "conn": [
         [
           148,
@@ -2109,12 +1600,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Goal.Speech act goal"
-        }
-      ],
+      "sense": "Contingency.Goal",
+      "conns": null,
       "conn": [
         [
           171,
@@ -2146,12 +1633,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Condition.Epistemic condition"
-        }
-      ],
+      "sense": "Contingency.Condition",
+      "conns": null,
       "conn": [
         [
           178,
@@ -2179,12 +1662,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Expansion.Alternative.Semantic alternative"
-        }
-      ],
+      "sense": "Expansion.Alternative",
+      "conns": null,
       "conn": [
         [
           189,
@@ -2212,12 +1691,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "e",
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": "e",
       "conn": [],
       "arg1": [
         [
@@ -2236,12 +1711,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "invece",
-          "sense": "Expansion.Alternative.Speech act alternative"
-        }
-      ],
+      "sense": "Expansion.Alternative",
+      "conns": "invece",
       "conn": [],
       "arg1": [
         [
@@ -2269,12 +1740,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "perch\u00e8",
-          "sense": "Contingency.Cause.Speech act cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": "perch\u00e8",
       "conn": [],
       "arg1": [
         [
@@ -2293,31 +1760,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [],
-      "conn": [],
-      "arg1": [
-        [
-          243,
-          245
-        ]
-      ],
-      "arg2": [
-        [
-          261,
-          267
-        ]
-      ],
-      "sup1": [],
-      "sup2": []
-    },
-    {
-      "label": "Implicit",
-      "sense": [
-        {
-          "connective": "e",
-          "sense": "Contingency.Cause.Semantic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": "e",
       "conn": [],
       "arg1": [
         [
@@ -2339,10 +1783,35 @@
       "sup2": []
     },
     {
-      "label": "EntRel",
-      "sense": [],
+      "label": "Implicit",
+      "sense": "Repetition",
+      "conns": null,
       "conn": [],
       "arg1": [
+        [
+          243,
+          245
+        ]
+      ],
+      "arg2": [
+        [
+          261,
+          267
+        ]
+      ],
+      "sup1": [],
+      "sup2": []
+    },
+    {
+      "label": "EntRel",
+      "sense": null,
+      "conns": null,
+      "conn": [],
+      "arg1": [
+        [
+          273,
+          282
+        ],
         [
           284,
           294
@@ -2359,14 +1828,14 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "ma",
-          "sense": "Comparison.Contrast.Semantic contrast"
-        }
-      ],
+      "sense": "Comparison.Contrast",
+      "conns": "ma",
       "conn": [],
       "arg1": [
+        [
+          273,
+          282
+        ],
         [
           284,
           294
@@ -2383,12 +1852,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "ma",
-          "sense": "Comparison.Contrast.Semantic contrast"
-        }
-      ],
+      "sense": "Comparison.Contrast",
+      "conns": "ma",
       "conn": [],
       "arg1": [
         [
@@ -2407,12 +1872,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "ma",
-          "sense": "Interrupted"
-        }
-      ],
+      "sense": "Interrupted",
+      "conns": "ma",
       "conn": [],
       "arg1": [
         [
@@ -2435,12 +1896,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Cause.Epistemic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": null,
       "conn": [
         [
           352,
@@ -2468,12 +1925,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": null,
       "conn": [
         [
           378,
@@ -2497,7 +1950,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [],
+      "sense": "Repetition",
+      "conns": null,
       "conn": [],
       "arg1": [
         [
@@ -2519,32 +1973,9 @@
       "sup2": []
     },
     {
-      "label": "Implicit",
-      "sense": [],
-      "conn": [],
-      "arg1": [
-        [
-          431,
-          436
-        ]
-      ],
-      "arg2": [
-        [
-          477,
-          482
-        ]
-      ],
-      "sup1": [],
-      "sup2": []
-    },
-    {
       "label": "AltLex",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": null,
       "conn": [
         [
           442,
@@ -2576,12 +2007,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Expansion.Restatement.Specification"
-        }
-      ],
+      "sense": "Expansion.Restatement.Specification",
+      "conns": null,
       "conn": [
         [
           468,
@@ -2596,6 +2023,10 @@
       ],
       "arg2": [
         [
+          442,
+          453
+        ],
+        [
           456,
           463
         ],
@@ -2609,12 +2040,8 @@
     },
     {
       "label": "AltLex",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Temporal.Asynchronous"
-        }
-      ],
+      "sense": "Temporal.Asynchronous",
+      "conns": null,
       "conn": [
         [
           469,
@@ -2642,12 +2069,28 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "perch\u00e8",
-          "sense": "Contingency.Cause.Speech act cause"
-        }
+      "sense": "Repetition",
+      "conns": null,
+      "conn": [],
+      "arg1": [
+        [
+          431,
+          436
+        ]
       ],
+      "arg2": [
+        [
+          477,
+          482
+        ]
+      ],
+      "sup1": [],
+      "sup2": []
+    },
+    {
+      "label": "Implicit",
+      "sense": "Contingency.Cause",
+      "conns": "perch\u00e8",
       "conn": [],
       "arg1": [
         [
@@ -2666,12 +2109,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "cos\u00ec",
-          "sense": "Contingency.Goal.Speech act goal"
-        }
-      ],
+      "sense": "Contingency.Goal",
+      "conns": "cos\u00ec",
       "conn": [],
       "arg1": [
         [
@@ -2690,12 +2129,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "e",
-          "sense": "Expansion.Conjunction.Semantic conjunction"
-        }
-      ],
+      "sense": "Expansion.Conjunction",
+      "conns": "e",
       "conn": [],
       "arg1": [
         [
@@ -2719,12 +2154,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "per\u00f2",
-          "sense": "Comparison.Concession.Semantic concession"
-        }
-      ],
+      "sense": "Comparison.Concession",
+      "conns": "per\u00f2",
       "conn": [],
       "arg1": [
         [

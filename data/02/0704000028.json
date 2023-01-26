@@ -543,272 +543,6 @@
       275
     ]
   ],
-  "chunks": [
-    [
-      0,
-      4
-    ],
-    [
-      4,
-      5
-    ],
-    [
-      5,
-      6
-    ],
-    [
-      6,
-      9
-    ],
-    [
-      9,
-      10
-    ],
-    [
-      10,
-      11
-    ],
-    [
-      11,
-      13
-    ],
-    [
-      13,
-      15
-    ],
-    [
-      15,
-      17
-    ],
-    [
-      17,
-      18
-    ],
-    [
-      18,
-      20
-    ],
-    [
-      20,
-      27
-    ],
-    [
-      27,
-      32
-    ],
-    [
-      32,
-      33
-    ],
-    [
-      33,
-      45
-    ],
-    [
-      45,
-      47
-    ],
-    [
-      47,
-      48
-    ],
-    [
-      48,
-      52
-    ],
-    [
-      52,
-      67
-    ],
-    [
-      67,
-      68
-    ],
-    [
-      68,
-      71
-    ],
-    [
-      71,
-      75
-    ],
-    [
-      75,
-      80
-    ],
-    [
-      80,
-      81
-    ],
-    [
-      81,
-      85
-    ],
-    [
-      85,
-      112
-    ],
-    [
-      112,
-      114
-    ],
-    [
-      114,
-      116
-    ],
-    [
-      116,
-      123
-    ],
-    [
-      123,
-      127
-    ],
-    [
-      127,
-      133
-    ],
-    [
-      133,
-      134
-    ],
-    [
-      134,
-      135
-    ],
-    [
-      135,
-      138
-    ],
-    [
-      138,
-      141
-    ],
-    [
-      141,
-      144
-    ],
-    [
-      144,
-      151
-    ],
-    [
-      151,
-      156
-    ],
-    [
-      156,
-      169
-    ],
-    [
-      169,
-      170
-    ],
-    [
-      170,
-      171
-    ],
-    [
-      171,
-      178
-    ],
-    [
-      178,
-      185
-    ],
-    [
-      185,
-      186
-    ],
-    [
-      186,
-      188
-    ],
-    [
-      188,
-      191
-    ],
-    [
-      191,
-      194
-    ],
-    [
-      194,
-      213
-    ],
-    [
-      213,
-      214
-    ],
-    [
-      214,
-      218
-    ],
-    [
-      218,
-      232
-    ],
-    [
-      232,
-      233
-    ],
-    [
-      233,
-      239
-    ],
-    [
-      239,
-      240
-    ],
-    [
-      240,
-      242
-    ],
-    [
-      242,
-      243
-    ],
-    [
-      243,
-      244
-    ],
-    [
-      244,
-      247
-    ],
-    [
-      247,
-      250
-    ],
-    [
-      250,
-      266
-    ],
-    [
-      266,
-      267
-    ],
-    [
-      267,
-      268
-    ],
-    [
-      268,
-      269
-    ],
-    [
-      269,
-      271
-    ],
-    [
-      271,
-      274
-    ],
-    [
-      274,
-      275
-    ]
-  ],
   "groups": [
     [
       0,
@@ -954,12 +688,8 @@
   "relations": [
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Condition.Epistemic condition"
-        }
-      ],
+      "sense": "Contingency.Condition",
+      "conns": null,
       "conn": [
         [
           33,
@@ -983,12 +713,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Comparison.Contrast.Speech act contrast"
-        }
-      ],
+      "sense": "Comparison.Contrast",
+      "conns": null,
       "conn": [
         [
           41,
@@ -1012,12 +738,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "quindi",
-          "sense": "Contingency.Cause.Epistemic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": "quindi",
       "conn": [],
       "arg1": [
         [
@@ -1036,12 +758,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Condition.Epistemic condition"
-        }
-      ],
+      "sense": "Contingency.Condition",
+      "conns": null,
       "conn": [
         [
           82,
@@ -1070,12 +788,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Comparison.Concession.Epistemic concession"
-        }
-      ],
+      "sense": "Comparison.Concession",
+      "conns": null,
       "conn": [
         [
           89,
@@ -1099,12 +813,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Cause.Epistemic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": null,
       "conn": [
         [
           141,
@@ -1128,12 +838,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Temporal.Synchrony"
-        }
-      ],
+      "sense": "Temporal.Synchrony",
+      "conns": null,
       "conn": [
         [
           145,
@@ -1161,12 +867,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Comparison.Concession.Semantic concession"
-        }
-      ],
+      "sense": "Comparison.Concession",
+      "conns": null,
       "conn": [
         [
           161,
@@ -1190,12 +892,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Cause.Semantic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": null,
       "conn": [
         [
           179,
@@ -1219,12 +917,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Comparison.Contrast.Semantic contrast"
-        }
-      ],
+      "sense": "Comparison.Contrast",
+      "conns": null,
       "conn": [
         [
           192,
@@ -1248,7 +942,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [],
+      "sense": "Repetition",
+      "conns": null,
       "conn": [],
       "arg1": [
         [
@@ -1267,12 +962,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Goal.Speech act goal"
-        }
-      ],
+      "sense": "Contingency.Goal",
+      "conns": null,
       "conn": [
         [
           224,

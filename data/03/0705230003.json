@@ -255,144 +255,6 @@
       115
     ]
   ],
-  "chunks": [
-    [
-      0,
-      1
-    ],
-    [
-      1,
-      2
-    ],
-    [
-      2,
-      14
-    ],
-    [
-      14,
-      16
-    ],
-    [
-      16,
-      21
-    ],
-    [
-      21,
-      27
-    ],
-    [
-      27,
-      40
-    ],
-    [
-      40,
-      46
-    ],
-    [
-      46,
-      47
-    ],
-    [
-      47,
-      50
-    ],
-    [
-      50,
-      51
-    ],
-    [
-      51,
-      52
-    ],
-    [
-      52,
-      58
-    ],
-    [
-      58,
-      59
-    ],
-    [
-      59,
-      70
-    ],
-    [
-      70,
-      71
-    ],
-    [
-      71,
-      72
-    ],
-    [
-      72,
-      77
-    ],
-    [
-      77,
-      80
-    ],
-    [
-      80,
-      85
-    ],
-    [
-      85,
-      88
-    ],
-    [
-      88,
-      89
-    ],
-    [
-      89,
-      91
-    ],
-    [
-      91,
-      94
-    ],
-    [
-      94,
-      97
-    ],
-    [
-      97,
-      100
-    ],
-    [
-      100,
-      102
-    ],
-    [
-      102,
-      105
-    ],
-    [
-      105,
-      106
-    ],
-    [
-      106,
-      107
-    ],
-    [
-      107,
-      110
-    ],
-    [
-      110,
-      111
-    ],
-    [
-      111,
-      114
-    ],
-    [
-      114,
-      115
-    ]
-  ],
   "groups": [
     [
       0,
@@ -494,12 +356,8 @@
   "relations": [
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "infatti",
-          "sense": "Contingency.Cause.Epistemic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": "infatti",
       "conn": [],
       "arg1": [
         [
@@ -523,12 +381,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Expansion.Conjunction.Semantic conjunction"
-        }
-      ],
+      "sense": "Expansion.Conjunction",
+      "conns": null,
       "conn": [
         [
           34,
@@ -552,12 +406,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "ma",
-          "sense": "Comparison.Concession.Semantic concession"
-        }
-      ],
+      "sense": "Comparison.Concession",
+      "conns": "ma",
       "conn": [],
       "arg1": [
         [
@@ -580,12 +430,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Condition.Semantic condition"
-        }
-      ],
+      "sense": "Contingency.Condition",
+      "conns": null,
       "conn": [
         [
           52,
@@ -600,6 +446,10 @@
       ],
       "arg2": [
         [
+          40,
+          46
+        ],
+        [
           47,
           50
         ]
@@ -609,15 +459,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "e",
-          "sense": [
-            "Expansion.Conjunction.Semantic conjunction",
-            "Contingency.Goal.Semantic goal"
-          ]
-        }
-      ],
+      "sense": "Expansion.Conjunction",
+      "conns": "e",
       "conn": [],
       "arg1": [
         [
@@ -636,12 +479,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Comparison.Concession.Semantic concession"
-        }
-      ],
+      "sense": "Comparison.Concession",
+      "conns": null,
       "conn": [
         [
           67,
@@ -669,7 +508,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [],
+      "sense": "Repetition",
+      "conns": null,
       "conn": [],
       "arg1": [
         [
@@ -692,12 +532,8 @@
     },
     {
       "label": "Explicit",
-      "sense": [
-        {
-          "connective": null,
-          "sense": "Contingency.Cause.Semantic cause"
-        }
-      ],
+      "sense": "Contingency.Cause",
+      "conns": null,
       "conn": [
         [
           83,
@@ -725,12 +561,8 @@
     },
     {
       "label": "Implicit",
-      "sense": [
-        {
-          "connective": "allora",
-          "sense": "Expansion.Restatement.Specification"
-        }
-      ],
+      "sense": "Expansion.Restatement.Specification",
+      "conns": "allora",
       "conn": [],
       "arg1": [
         [
