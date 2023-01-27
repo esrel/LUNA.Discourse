@@ -66,13 +66,23 @@ class Corpus:
         else:
             data = list(self.data.values())
 
-        # labels
-        labels = [[r.label for r in d.relations] for d in data]
-        labels = [label for dialog in labels for label in dialog]
+        # label & sense tuples
+        paired = [[(r.label, r.sense) for r in d.relations] for d in data]
+        paired = [ref for dialog in paired for ref in dialog]
+
+        labels, senses = map(list, zip(*paired))
+
+        info_list = [d.info for d in data]
 
         return {
-            "counts": len(data),
-            "labels": dict(Counter(labels))
+            "dialog": len(data),
+            "tokens": sum([x.get("tokens", 0) for x in info_list]),
+            "blocks": sum([x.get("blocks", 0) for x in info_list]),
+            "groups": sum([x.get("groups", 0) for x in info_list]),
+            "relations": sum([x.get("relations", 0) for x in info_list]),
+            "labels": dict(Counter(labels)),
+            "senses": dict(Counter(senses)),
+            "paired": dict(Counter(paired)),
         }
 
 
